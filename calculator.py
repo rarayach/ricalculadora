@@ -1,6 +1,10 @@
 calculadora
 
 def sumar():
+    num1 = int(input("ingrese un número: \n"))
+    num2 = int(input("ingrese un número: \n"))
+    resultado = num1 + num2
+    print(f"{resultado})
     
 def restar():
     
